@@ -1,0 +1,11 @@
+
+    <h1>Bienvenidos</h1>
+    {{#if title}}
+    <h1>{{title}}</h1>
+    {{/if}}
+
+    {{#if users}}
+        {{#each users}}
+        <h3>{{this.name}}</h3>
+        {{/each}}
+    {{/if}}

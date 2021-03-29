@@ -1,0 +1,1 @@
+console.log('Accediendo al archivo')

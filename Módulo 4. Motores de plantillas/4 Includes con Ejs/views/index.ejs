@@ -1,0 +1,10 @@
+    <h1>Bienvenidos</h1>
+    <% if(title) { %>
+        <h2><%= title %></h2>
+    <% } %>
+
+    <% if(users){ %>
+        <% for(i=0; i<users.length; i++){ %>
+            <h3><%= users[i].name %></h3>
+        <% } %>
+    <% } %>
